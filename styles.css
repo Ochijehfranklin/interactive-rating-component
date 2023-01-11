@@ -18,7 +18,6 @@
 
 body{
     height: 100vh;
-   /* width: 100%;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,10 +29,8 @@ body{
 
 main{
  padding: 20px;
-/*padding: 28px 15px;*/
 width: 330px;
 height: 45vh;
-/*margin: 80%;*/
 border-radius: 30px;
 background-color: var(--Dark-Blue);
 }
@@ -41,7 +38,7 @@ background-color: var(--Dark-Blue);
 /*firstPage styling*/
 
 .firstPage{
-   display: none;
+  /* display: none;*/
 }
 /*Giving the image a border*/
 .firstPage .star-image{
@@ -135,7 +132,7 @@ button:hover
 
 .hide
 {
- /*display: none; */
+ display: none;
 }
 
 .secondPage .thankYou
@@ -212,15 +209,6 @@ button{
         font-size: 20px;
     }
 }
-
-
-
-
-
-
-
-
-
 
 .attribution 
 { font-size: 11px; text-align: center; 
