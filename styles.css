@@ -189,7 +189,7 @@ button{
 }
 
 
-@media (min-width: 380px){
+@media (max-width: 380px){
     .thankYou img
     {
     width: 190px;
