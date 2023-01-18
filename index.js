@@ -25,7 +25,7 @@ function submitRating ()
 }
 //to allow you pick any of the buttons in the list and rate
 points.forEach(function (elem){
-    elem.addeEventListener("click", 
+    elem.addEventListener("click", 
     selectRating);
 });
 
